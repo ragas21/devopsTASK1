@@ -38,10 +38,6 @@ else
     fi
   fi
 fi
-if [ ! -d $package1 ]; then
-  echo "ERROR: Git clone didnt work"
-  exit 101
-fi
 
 TOKEN="8204c242e532c8db05cd224c0185d428b5644dbe"
 tail -n 9 ./.env.example > ./.env
